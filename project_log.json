@@ -9,5 +9,6 @@
   ],
   "database_schema_initialized": true,
   "political_history_initialized": true,
-  "lga_granularity_initialized": true
+  "lga_granularity_initialized": true,
+  "infrastructure_social_initialized": true
 }
