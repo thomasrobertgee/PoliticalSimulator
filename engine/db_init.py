@@ -1,5 +1,5 @@
 import os
-from sqlalchemy import create_engine, Column, Integer, String, Float, Text
+from sqlalchemy import create_engine, Column, Integer, String, Float, Text, Boolean
 from sqlalchemy.orm import declarative_base, sessionmaker
 
 # Define database path
@@ -149,15 +149,16 @@ class EmploymentHubs(Base):
     estimated_jobs = Column(Integer)
     primary_industry = Column(String)
 
-# --- New Table (Step 171) ---
+# --- Updated Schema (Step 183) ---
 class TemporalStats(Base):
     __tablename__ = 'temporal_stats'
     id = Column(Integer, primary_key=True, autoincrement=True)
     year = Column(Integer)
-    category = Column(String) # e.g., "Household Debt Index", "Homelessness Count"
+    lga_code = Column(Integer)
+    category_id = Column(Integer)
+    metric_name = Column(String)
     value = Column(Float)
-    region_type = Column(String) # "State" or "LGA"
-    region_name = Column(String) # "Victoria" or LGA Name
+    is_interpolated = Column(Boolean)
 
 def init_db():
     print(f"Update: Creating/Refreshing database tables at {DB_PATH}...")

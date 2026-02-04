@@ -1,0 +1,141 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "LGA_NAME": "Hobsons Bay",
+                "LGA_CODE": 311
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            144.8,
+                            -37.8
+                        ],
+                        [
+                            144.9,
+                            -37.8
+                        ],
+                        [
+                            144.9,
+                            -37.9
+                        ],
+                        [
+                            144.8,
+                            -37.9
+                        ],
+                        [
+                            144.8,
+                            -37.8
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "LGA_NAME": "Melbourne",
+                "LGA_CODE": 460
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            144.9,
+                            -37.8
+                        ],
+                        [
+                            145.0,
+                            -37.8
+                        ],
+                        [
+                            145.0,
+                            -37.9
+                        ],
+                        [
+                            144.9,
+                            -37.9
+                        ],
+                        [
+                            144.9,
+                            -37.8
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "LGA_NAME": "Greater Geelong",
+                "LGA_CODE": 275
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            144.3,
+                            -38.1
+                        ],
+                        [
+                            144.5,
+                            -38.1
+                        ],
+                        [
+                            144.5,
+                            -38.2
+                        ],
+                        [
+                            144.3,
+                            -38.2
+                        ],
+                        [
+                            144.3,
+                            -38.1
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "LGA_NAME": "Greater Bendigo",
+                "LGA_CODE": 262
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            144.2,
+                            -36.7
+                        ],
+                        [
+                            144.4,
+                            -36.7
+                        ],
+                        [
+                            144.4,
+                            -36.8
+                        ],
+                        [
+                            144.2,
+                            -36.8
+                        ],
+                        [
+                            144.2,
+                            -36.7
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}
